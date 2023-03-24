@@ -9,8 +9,18 @@
     tools:context=".TugasSatu.ActivityDua">
 
     <TextView
-        android:textColor="@color/white"
         android:id="@+id/txtName"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:id="@+id/txtUmur"
+        android:layout_below="@+id/txtName"
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:textSize="20sp"

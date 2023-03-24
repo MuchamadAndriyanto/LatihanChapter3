@@ -12,9 +12,10 @@ class ActivityDua : AppCompatActivity() {
         setContentView(binding.root)
 
         val getbundle = intent.extras
-        val name = getbundle?.getString("nama")
+        val namemahasiswa = getbundle?.getString("nama")
         val age = getbundle?.getInt("umur")
-        binding.txtName.text = "Haloo, " +  name + " Umur kamu : $age"
+        binding.txtName.text = "Hallo, " +  namemahasiswa
+        binding.txtUmur.text = "Umur Kamu : " + 20
 
     }
 }

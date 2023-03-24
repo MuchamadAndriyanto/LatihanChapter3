@@ -17,11 +17,6 @@
         <activity
             android:name=".TugasDua.ActivityPertama"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
         <activity
@@ -30,14 +25,13 @@
         <activity
             android:name=".TugasSatu.ActivitySatu"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
-        <activity
-            android:name=".HalamanDua"
-            android:exported="false" />
-        <activity
-            android:name=".HalamanSatu"
-            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
