@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:layout_height="match_parent"
+    tools:context=".TugasSatu.ActivitySatu">
+
+    <TextView
+        android:id="@+id/txtView"
+        android:textSize="30sp"
+        android:text="Form Input"
+        android:textColor="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/txtName"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/txtView"
+        android:hint="Input Name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/txtUmur"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/txtName"
+        android:hint="Umur"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUmur"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Save"
+        android:textColor="@color/white" />
+
+
+
+</RelativeLayout>
